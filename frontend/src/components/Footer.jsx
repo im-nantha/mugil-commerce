@@ -33,7 +33,7 @@ const Footer = () => {
           <div className="row mt-3">
             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
-                <i className="fas fa-gem mr-3"></i>Company name
+                <i className="fas fa-gem mr-3"></i>Mugil Elite Mart
               </h6>
               <p className="text-left">
                 Here you can use rows and columns to organize your footer
@@ -42,7 +42,7 @@ const Footer = () => {
               </p>
             </div>
             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-left">
-              <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
+              <h6 className="text-uppercase fw-bold mb-4">Explore</h6>
               <p>
                 <a href="#" className="text-reset">
                   Pricing
@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
       </section>
       <div className="text-center p-4">
-        © 2025 Copyright: MugilEliteMart. All rights reserved
+        © 2025 Copyright: <a href="https://mugilelitemart.com">mugilelitemart</a> All rights reserved
       </div>
     </footer>
   );

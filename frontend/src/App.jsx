@@ -11,6 +11,7 @@ import Cart from "./pages/Cart";
 import "./assets/styles/main.scss";
 import About from "./pages/About";
 import ContactUs from "./pages/ContactUs";
+import Products from "./pages/products";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -40,6 +41,7 @@ function App() {
             />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<ContactUs />} />
+            <Route path="/products" element={<Products />} />
           </Routes>
         </div>
       </Router>

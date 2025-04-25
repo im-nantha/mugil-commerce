@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ProductCard = ({ product }) => {
   return (
     <div className="col-sm-12 col-md-6 col-lg-3 my-3">
-      <Link to={"product/"+product._id} className="anchor">
+      <Link to={"/product/"+product._id} className="anchor">
       <div className="card p-3 rounded">
         <img className="card-img-top mx-auto" src={product.images[0].image} />
         <div className="card-body d-flex flex-column">

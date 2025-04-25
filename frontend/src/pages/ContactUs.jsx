@@ -1,13 +1,11 @@
 import React from "react";
-import Carousel from "../components/Carousel";
-import Footer from "../components/Footer";
+import banner2 from "../assets/images/banner2.png";
 
 function ContactUs() {
   return (
     <div>
-      <h2>ContactUs</h2>
-      <Carousel />
-      <Footer />
+      <h2 className="text-center py-4">Contact Us</h2>
+      <img src={banner2} alt="banner" className="w-100" />
     </div>
   );
 }

@@ -1,15 +1,13 @@
 import React from "react";
-import Carousel from "../components/Carousel";
-import Footer from "../components/Footer";
+import banner3 from "../assets/images/banner3.png";
 
 function About() {
   return (
     <div>
       <main>
-        <h2>About</h2>
+        <h2 className="text-center py-4">About us</h2>
+        <img src={banner3} alt="banner" className="w-100" />
       </main>
-      <Carousel />
-      <Footer />
     </div>
   );
 }

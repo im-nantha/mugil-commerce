@@ -74,6 +74,7 @@ body {
 /* Home page */
 #products_heading {
   margin-top: 1.8rem;
+  text-align: center;
 }
 
 .card {

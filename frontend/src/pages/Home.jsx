@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Fragment } from "react";
-import ProductCard from "../components/ProductCard";
 import { useSearchParams } from "react-router-dom";
 import Carousel from "../components/Carousel";
 import FeaturedCollections from "../components/FeaturedCollections";
 import SingleProductFeature from "../components/SingleProductFeature";
 import SpecialCollections from "../components/SpecialCollections";
 import SneakPeek from "../components/SneakPeek";
+import AllProducts from "../components/AllProducts";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -30,15 +30,7 @@ const Home = () => {
         <SpecialCollections />
         <SneakPeek />
       </main>
-      <h2 id="products_heading">Latest Products</h2>
-
-      <section id="products" className="container mt-5">
-        <div className="row">
-          {products.map((product) => (
-            <ProductCard product={product} key={product._id} />
-          ))}
-        </div>
-      </section>
+      <AllProducts />
     </Fragment>
   );
 };
