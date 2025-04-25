@@ -1,0 +1,48 @@
+.mugil-fc-container {
+  width: 100%;
+  padding: 0px 40px;
+  .mugil-fc-title {
+    padding: 40px 10px;
+    text-align: center;
+  }
+  .mugil-fc-wrapper {
+    display: flex;
+    gap: 6px;
+    .mugil-fc-product {
+      flex: 1;
+      .fc-img-wrapper-link {
+        text-decoration:none;
+      }
+      .fc-img-wrapper {
+        width: inherit;
+        img {
+          width: 100%;
+        }
+      }
+      .fc-text-wrapper {
+        padding: 10px 0px;
+        .fc-price-title {
+          color: var(--blue-gradient);
+          font-weight: 700;
+        }
+        .fc-price {
+          color: var(--blue-gradient);
+        }
+      }
+    }
+  }
+  .mugil-fc-button-wrapper {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .mugil-fc-button {
+      text-align: center;
+      padding: 8px 24px;
+      background: var(--blue-gradient);
+      border-radius: 4px;
+      text-decoration: none;
+      color: var(--primary-white);
+    }
+  }
+}

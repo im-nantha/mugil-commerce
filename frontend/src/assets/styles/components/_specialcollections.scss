@@ -1,0 +1,36 @@
+.mugil-spc-wrapper {
+    width: 100%;
+    padding: 20px 40px 40px 40px;
+
+    .mugil-spc-title {
+        text-align: center;
+        padding: 0px 20px 40px 20px;
+    }
+    .mugil-spc-cards-wrapper {
+        display: flex;
+        gap: 2.5rem;
+        justify-content: center;
+        align-items: center;
+        .mugil-spc-cards {
+            flex: 1;
+            &:hover {
+                text-decoration: none;
+            }
+            .spc-img-wrapper img {
+                width: 100%;
+            }
+            .spc-text-container {
+                text-align: center;
+                .spc-text-title {
+                    padding: 20px 5px 10px 5px;
+                    text-decoration: underline;
+                    color: var(--blue-gradient);
+                }
+                .spc-text-desc {
+                    padding: 5px;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}

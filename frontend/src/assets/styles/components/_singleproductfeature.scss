@@ -1,0 +1,30 @@
+.mugil-spf-container {
+    width: 100%;
+    padding: 0px 40px 40px 40px;
+    .mugil-spf-cover {
+        display: flex;
+        .spf-context {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-right: 20px;
+            .spf-title {
+                padding-bottom: 15px;
+            }
+            .spf-desc {
+                padding-bottom: 30px;
+            }
+            .spf-link {
+                text-decoration: underline;
+                color: var(--blue-gradient);
+            }
+        }
+        .spf-image-wrapper {
+            flex: 1;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
