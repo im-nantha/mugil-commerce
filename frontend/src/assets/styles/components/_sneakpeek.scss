@@ -11,6 +11,8 @@
     gap: 8px;
     .mugil-sp-cards {
       position: relative;
+      overflow: hidden;
+      cursor: pointer;
       .sneak-peak-overlay {
         position: absolute;
         z-index: 2;
@@ -22,6 +24,10 @@
       img {
         width: 100%;
         height: 100%;
+        transition: transform 0.4s ease;
+      }
+      &:hover img {
+        transform: scale(1.05);
       }
       &::after {
         content: "";

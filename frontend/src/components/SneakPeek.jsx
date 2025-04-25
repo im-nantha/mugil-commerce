@@ -1,9 +1,11 @@
 import React from "react";
 import SneakPeekCardsData from "../data/SneakPeekData.json";
+import useFadeInOnScroll from '../hooks/useFadeInOnScroll.js';
 
 function SneakPeekCards(props) {
+  const [ref, isVisible] = useFadeInOnScroll();
   return (
-    <div className="mugil-sp-cards">
+    <div ref={ref} className={`mugil-sp-cards fade-in ${isVisible ? 'visible' : ''}`}>
       <img src={props.productImage} alt="image" />
       <p className="sneak-peak-overlay">{props.productType}</p>
     </div>

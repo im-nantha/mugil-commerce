@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import FeaturedCollectionData from "../data/FeaturedCollection.json";
+import useFadeInOnScroll from '../hooks/useFadeInOnScroll.js';
 
 function FeaturedCollectionCards(props) {
+  const [ref, isVisible] = useFadeInOnScroll();
+
   return (
-    <div className="mugil-fc-product">
+    <div ref={ref} className={`mugil-fc-product fade-in ${isVisible ? 'visible' : ''}`}>
       <Link to={props.featuredLink} className="fc-img-wrapper-link">
         <div className="fc-img-wrapper">
           <img src={props.featuredImage} alt="image" />

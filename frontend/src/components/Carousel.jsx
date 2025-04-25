@@ -26,7 +26,7 @@ function Carousel() {
           loop
         >
           <SwiperSlide>
-            <img src={banner1} alt="Slide 1" />
+            <img src={banner3} alt="Slide 1" />
             <Link to="/" className="mugil-banner-button">
               Know more
             </Link>
@@ -38,7 +38,7 @@ function Carousel() {
             </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={banner3} alt="Slide 3" />
+            <img src={banner1} alt="Slide 3" />
             <Link to="/" className="mugil-banner-button">
               Know more
             </Link>

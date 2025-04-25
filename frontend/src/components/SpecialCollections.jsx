@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 import specialimage1 from "../assets/images/special-collections/spc-1.jpg";
 import specialimage2 from "../assets/images/special-collections/spc-2.jpg";
 import specialimage3 from "../assets/images/special-collections/spc-3.jpg";
+import useFadeInOnScroll from '../hooks/useFadeInOnScroll.js';
 
 function SpecialCollections() {
+  const [ref, isVisible] = useFadeInOnScroll();
   return (
-    <section className="mugil-spc-wrapper">
+    <section ref={ref} className={`mugil-spc-wrapper fade-in ${isVisible ? 'visible' : ''}`}>
       <h2 className="mugil-spc-title">Special Collections</h2>
       <div className="mugil-spc-cards-wrapper">
         <Link to="#" className="mugil-spc-cards">

@@ -1,11 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import sidebanner from "../assets/images/side-banner.jpg";
+import useFadeInOnScroll from '../hooks/useFadeInOnScroll.js';
 
 function SingleProductFeature() {
+  const [ref, isVisible] = useFadeInOnScroll();
+
   return (
     <section className="mugil-spf-container">
-      <div className="mugil-spf-cover">
+      <div ref={ref} className={`mugil-spf-cover fade-in ${isVisible ? 'visible' : ''}`}>
         <div className="spf-context">
           <h2 className="spf-title">Glass Forest - an imagined reality.</h2>
           <p className="spf-desc">
