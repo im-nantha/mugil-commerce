@@ -30,7 +30,6 @@ const Home = () => {
         <SpecialCollections />
         <SneakPeek />
       </main>
-      <AllProducts />
     </Fragment>
   );
 };

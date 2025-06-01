@@ -12,19 +12,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 30px;
 
     .mugil-mart-logo {
-      width: 121px;
-      height: 40px;
+      width: 200px;
+      height: 80px;
+      padding: 10px;
       @media (max-width: 768px) {
         width: 90px;
       }
     }
     .mugil-mart-logo-wrapper {
       display: inline-block;
-      width: 121px;
-      height: 40px;
+      width: 100%;
+      height: 100%;
       @media (max-width: 768px) {
         width: 90px;
       }
@@ -37,6 +37,7 @@
     }
     .mugil-mart-navbar {
       background-color: #ffffff;
+      padding: 15px 30px;
     }
     .mugil-mart-navbar-content {
       display: flex;
@@ -68,6 +69,7 @@
       display: flex;
       align-items: center;
       gap: 22px;
+      padding: 15px 30px;
 
       @media (max-width: 768px) {
         display: none;

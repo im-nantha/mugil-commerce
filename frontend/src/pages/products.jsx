@@ -1,11 +1,11 @@
 import React from "react";
-import AllProducts from "../components/AllProducts";
+import SneakPeek from "../components/SneakPeek";
 
 function Products() {
   return (
     <div>
       <main>
-        <AllProducts title="Explore All Products" />
+        <SneakPeek />
       </main>
     </div>
   );

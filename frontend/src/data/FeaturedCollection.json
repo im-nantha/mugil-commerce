@@ -1,31 +1,31 @@
 [
   {
-    "featuredTitle": "Twilight wine glass",
-    "featuredImage": "/src/assets/images/featured-collections/fc-1.jpg",
+    "featuredTitle": "MB 1101",
+    "featuredImage": "/src/assets/images/featured-collections/MB-1101.jpg",
     "featuredRate": "MRP ₹ 3,250.00",
     "featuredLink": "/"
   },
   {
-    "featuredTitle": "Twilight Glasses",
-    "featuredImage": "/src/assets/images/featured-collections/fc-2.jpg",
+    "featuredTitle": "MB 1102",
+    "featuredImage": "/src/assets/images/featured-collections/MB-1102.jpg",
     "featuredRate": "MRP ₹ 1,200.00",
     "featuredLink": "/"
   },
   {
-    "featuredTitle": "Twilight Desert Bowls",
-    "featuredImage": "/src/assets/images/featured-collections/fc-3.jpg",
+    "featuredTitle": "MB 1103",
+    "featuredImage": "/src/assets/images/featured-collections/MB-1103.jpg",
     "featuredRate": "MRP ₹ 5,200.00",
     "featuredLink": "/"
   },
   {
-    "featuredTitle": "Twilight Champagne Glass",
-    "featuredImage": "/src/assets/images/featured-collections/fc-4.jpg",
+    "featuredTitle": "MB 1104",
+    "featuredImage": "/src/assets/images/featured-collections/MB-1104.jpg",
     "featuredRate": "MRP ₹ 4,200.00",
     "featuredLink": "/"
   },
   {
-    "featuredTitle": "Twilight Champagne Glass",
-    "featuredImage": "/src/assets/images/featured-collections/fc-4.jpg",
+    "featuredTitle": "MB 1105",
+    "featuredImage": "/src/assets/images/featured-collections/MB-1105.jpg",
     "featuredRate": "MRP ₹ 4,200.00",
     "featuredLink": "/"
   }
