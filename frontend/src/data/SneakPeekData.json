@@ -1,142 +1,142 @@
 [
   {
     "productType": "MB 1106",
-    "productImage": "/mugil-commerce/images/doors/MB-1106.jpg"
+    "productImage": "/src/assets/images/doors/MB-1106.jpg"
   },
   {
     "productType": "MB 1107",
-    "productImage": "/mugil-commerce/images/doors/MB-1107.jpg"
+    "productImage": "/src/assets/images/doors/MB-1107.jpg"
   },
   {
     "productType": "MB 1108",
-    "productImage": "/mugil-commerce/images/doors/MB-1108.jpg"
+    "productImage": "/src/assets/images/doors/MB-1108.jpg"
   },
   {
     "productType": "MB 1109",
-    "productImage": "/mugil-commerce/images/doors/MB-1109.jpg"
+    "productImage": "/src/assets/images/doors/MB-1109.jpg"
   },
   {
     "productType": "MB 1110",
-    "productImage": "/mugil-commerce/images/doors/MB-1110.jpg"
+    "productImage": "/src/assets/images/doors/MB-1110.jpg"
   },
   {
     "productType": "Chimney 1",
-    "productImage": "/mugil-commerce/images/chimney/chimney-1.webp"
+    "productImage": "/src/assets/images/chimney/chimney-1.webp"
   },
   {
     "productType": "Chimney 2",
-    "productImage": "/mugil-commerce/images/chimney/chimney-2.webp"
+    "productImage": "/src/assets/images/chimney/chimney-2.webp"
   },
   {
     "productType": "Chimney 3",
-    "productImage": "/mugil-commerce/images/chimney/chimney-3.webp"
+    "productImage": "/src/assets/images/chimney/chimney-3.webp"
   },
   {
     "productType": "Chimney 4",
-    "productImage": "/mugil-commerce/images/chimney/chimney-4.webp"
+    "productImage": "/src/assets/images/chimney/chimney-4.webp"
   },
   {
     "productType": "Chimney 5",
-    "productImage": "/mugil-commerce/images/chimney/chimney-5.webp"
+    "productImage": "/src/assets/images/chimney/chimney-5.webp"
   },
   {
     "productType": "Asian paints 1",
-    "productImage": "/mugil-commerce/images/paint/asian/asian-paint-1.png",
+    "productImage": "/src/assets/images/paint/asian/asian-paint-1.png",
     "productKey": "paint"
   },
   {
     "productType": "Asian paints 2",
-    "productImage": "/mugil-commerce/images/paint/asian/asian-paint-2.png",
+    "productImage": "/src/assets/images/paint/asian/asian-paint-2.png",
     "productKey": "paint"
   },
   {
     "productType": "Asian paints 3",
-    "productImage": "/mugil-commerce/images/paint/asian/asian-paint-3.png",
+    "productImage": "/src/assets/images/paint/asian/asian-paint-3.png",
     "productKey": "paint"
   },
   {
     "productType": "Asian paints 4",
-    "productImage": "/mugil-commerce/images/paint/asian/asian-paint-4.png",
+    "productImage": "/src/assets/images/paint/asian/asian-paint-4.png",
     "productKey": "paint"
   },
   {
     "productType": "Asian paints 5",
-    "productImage": "/mugil-commerce/images/paint/asian/asian-paint-5.png",
+    "productImage": "/src/assets/images/paint/asian/asian-paint-5.png",
     "productKey": "paint"
   },
   {
     "productType": "Lock 1",
-    "productImage": "/mugil-commerce/images/mortise-lock/lock-1.webp",
+    "productImage": "/src/assets/images/mortise-lock/lock-1.webp",
     "productKey": "mortise-lock"
   },
   {
     "productType": "Lock 2",
-    "productImage": "/mugil-commerce/images/mortise-lock/lock-2.webp",
+    "productImage": "/src/assets/images/mortise-lock/lock-2.webp",
     "productKey": "mortise-lock"
   },
   {
     "productType": "Lock 3",
-    "productImage": "/mugil-commerce/images/mortise-lock/lock-3.webp",
+    "productImage": "/src/assets/images/mortise-lock/lock-3.webp",
     "productKey": "mortise-lock"
   },
   {
     "productType": "Lock 4",
-    "productImage": "/mugil-commerce/images/mortise-lock/lock-4.webp",
+    "productImage": "/src/assets/images/mortise-lock/lock-4.webp",
     "productKey": "mortise-lock"
   },
   {
     "productType": "Lock 5",
-    "productImage": "/mugil-commerce/images/mortise-lock/lock-5.webp",
+    "productImage": "/src/assets/images/mortise-lock/lock-5.webp",
     "productKey": "mortise-lock"
   },
   {
     "productType": "Birla paints 1",
-    "productImage": "/mugil-commerce/images/paint/birla/birla-1.webp",
+    "productImage": "/src/assets/images/paint/birla/birla-1.webp",
     "productKey": "paint"
   },
   {
     "productType": "Birla paints 2",
-    "productImage": "/mugil-commerce/images/paint/birla/birla-2.webp",
+    "productImage": "/src/assets/images/paint/birla/birla-2.webp",
     "productKey": "paint"
   },
   {
     "productType": "Birla paints 3",
-    "productImage": "/mugil-commerce/images/paint/birla/birla-3.webp",
+    "productImage": "/src/assets/images/paint/birla/birla-3.webp",
     "productKey": "paint"
   },
   {
     "productType": "Birla paints 4",
-    "productImage": "/mugil-commerce/images/paint/birla/birla-4.webp",
+    "productImage": "/src/assets/images/paint/birla/birla-4.webp",
     "productKey": "paint"
   },
   {
     "productType": "Birla paints 5",
-    "productImage": "/mugil-commerce/images/paint/birla/birla-5.webp",
+    "productImage": "/src/assets/images/paint/birla/birla-5.webp",
     "productKey": "paint"
   },
   {
     "productType": "Handle 1",
-    "productImage": "/mugil-commerce/images/handles/handle-1.webp",
+    "productImage": "/src/assets/images/handles/handle-1.webp",
     "productKey": "handles"
   },
   {
     "productType": "Handle 2",
-    "productImage": "/mugil-commerce/images/handles/handle-2.webp",
+    "productImage": "/src/assets/images/handles/handle-2.webp",
     "productKey": "handles"
   },
   {
     "productType": "Handle 3",
-    "productImage": "/mugil-commerce/images/handles/handle-3.webp",
+    "productImage": "/src/assets/images/handles/handle-3.webp",
     "productKey": "handles"
   },
   {
     "productType": "Handle 4",
-    "productImage": "/mugil-commerce/images/handles/handle-4.webp",
+    "productImage": "/src/assets/images/handles/handle-4.webp",
     "productKey": "handles"
   },
   {
     "productType": "Handle 5",
-    "productImage": "/mugil-commerce/images/handles/handle-5.webp",
+    "productImage": "/src/assets/images/handles/handle-5.webp",
     "productKey": "handles"
   }
 ]
