@@ -10,29 +10,29 @@ const Header = ({ cartItems }) => {
       </div>
       <div className="mugil-mart-header">
         <div className="mugil-mart-logo">
-          <Link to="/" className="mugil-mart-logo-wrapper">
+          <Link to="/mugil-commerce/" className="mugil-mart-logo-wrapper">
             <img className="mugil-mart-img" src={logo} alt="mugil-mart-logo" />
           </Link>
         </div>
         <nav className="mugil-mart-navbar">
           <ul className="mugil-mart-navbar-content">
             <li>
-              <Link to="/mugil-commerce" className="mugil-mart-nav-wrap">
+              <Link to="/mugil-commerce/" className="mugil-mart-nav-wrap">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/about" className="mugil-mart-nav-wrap">
+              <Link to="/mugil-commerce/about" className="mugil-mart-nav-wrap">
                 About
               </Link>
             </li>
             <li>
-              <Link to="/products" className="mugil-mart-nav-wrap">
+              <Link to="/mugil-commerce/products" className="mugil-mart-nav-wrap">
                 Our Products
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="mugil-mart-nav-wrap">
+              <Link to="/mugil-commerce/contact" className="mugil-mart-nav-wrap">
                 Contact
               </Link>
             </li>

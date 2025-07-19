@@ -22,10 +22,10 @@ function App() {
           <ToastContainer theme="dark" position="top-center" />
           <Header cartItems={cartItems} />          
           <Routes>
-            <Route path="/mugil-commerce" element={<Home />} />
-            <Route path="/search" element={<Home />} />
+            <Route path="/mugil-commerce/" element={<Home />} />
+            <Route path="/mugil-commerce/search" element={<Home />} />
             <Route
-              path="/product/:id"
+              path="/mugil-commerce/product/:id"
               element={
                 <ProductDetail
                   cartItems={cartItems}
@@ -34,14 +34,14 @@ function App() {
               }
             />
             <Route
-              path="/cart"
+              path="/mugil-commerce/cart"
               element={
                 <Cart cartItems={cartItems} setCartItems={setCartItems} />
               }
             />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<ContactUs />} />
-            <Route path="/products" element={<Products />} />
+            <Route path="/mugil-commerce/about" element={<About />} />
+            <Route path="/mugil-commerce/contact" element={<ContactUs />} />
+            <Route path="/mugil-commerce/products" element={<Products />} />
           </Routes>
         </div>
       </Router>
