@@ -1,5 +1,4 @@
 import React from "react";
-import SneakPeekCardsData from "../data/SneakPeekData.json";
 import useFadeInOnScroll from '../hooks/useFadeInOnScroll.js';
 
 function SneakPeekCards(props) {
@@ -12,10 +11,10 @@ function SneakPeekCards(props) {
   );
 }
 
-function SneakPeek() {
+function SneakPeek({SneakPeakTitle,SneakPeekCardsData}) {
   return (
     <section className="mugil-sneak-peek">
-      <h2 className="sneak-peek-title">Sneak Peek</h2>
+      <h2 className="sneak-peek-title">{SneakPeakTitle}</h2>
       <div className="mugil-sp-card-wrapper">
         {SneakPeekCardsData.map((item, index) => (
           <SneakPeekCards

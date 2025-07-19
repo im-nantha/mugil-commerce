@@ -18,60 +18,125 @@
   {
     "productType": "MB 1110",
     "productImage": "/src/assets/images/doors/MB-1110.jpg"
-  },{
-    "productType": "MB 1201",
-    "productImage": "/src/assets/images/doors/MB-1201.jpg"
   },
   {
-    "productType": "MB 1202",
-    "productImage": "/src/assets/images/doors/MB-1202.jpg"
+    "productType": "Chimney 1",
+    "productImage": "/src/assets/images/chimney/chimney-1.webp"
   },
   {
-    "productType": "MB 1203",
-    "productImage": "/src/assets/images/doors/MB-1203.jpg"
+    "productType": "Chimney 2",
+    "productImage": "/src/assets/images/chimney/chimney-2.webp"
   },
   {
-    "productType": "MB 1204",
-    "productImage": "/src/assets/images/doors/MB-1204.jpg"
+    "productType": "Chimney 3",
+    "productImage": "/src/assets/images/chimney/chimney-3.webp"
   },
   {
-    "productType": "MB 1205",
-    "productImage": "/src/assets/images/doors/MB-1205.jpg"
+    "productType": "Chimney 4",
+    "productImage": "/src/assets/images/chimney/chimney-4.webp"
   },
   {
-    "productType": "MB 1206",
-    "productImage": "/src/assets/images/doors/MB-1206.jpg"
+    "productType": "Chimney 5",
+    "productImage": "/src/assets/images/chimney/chimney-5.webp"
   },
   {
-    "productType": "MB 1207",
-    "productImage": "/src/assets/images/doors/MB-1207.jpg"
-  }
-  ,{
-    "productType": "MB 1301",
-    "productImage": "/src/assets/images/doors/MB-1301.jpg"
+    "productType": "Asian paints 1",
+    "productImage": "/src/assets/images/paint/asian/asian-paint-1.png",
+    "productKey": "paint"
   },
   {
-    "productType": "MB 1302",
-    "productImage": "/src/assets/images/doors/MB-1302.jpg"
+    "productType": "Asian paints 2",
+    "productImage": "/src/assets/images/paint/asian/asian-paint-2.png",
+    "productKey": "paint"
   },
   {
-    "productType": "MB 1303",
-    "productImage": "/src/assets/images/doors/MB-1303.jpg"
+    "productType": "Asian paints 3",
+    "productImage": "/src/assets/images/paint/asian/asian-paint-3.png",
+    "productKey": "paint"
   },
   {
-    "productType": "MB 1304",
-    "productImage": "/src/assets/images/doors/MB-1304.jpg"
+    "productType": "Asian paints 4",
+    "productImage": "/src/assets/images/paint/asian/asian-paint-4.png",
+    "productKey": "paint"
   },
   {
-    "productType": "MB 1305",
-    "productImage": "/src/assets/images/doors/MB-1305.jpg"
+    "productType": "Asian paints 5",
+    "productImage": "/src/assets/images/paint/asian/asian-paint-5.png",
+    "productKey": "paint"
   },
   {
-    "productType": "MB 1306",
-    "productImage": "/src/assets/images/doors/MB-1306.jpg"
+    "productType": "Lock 1",
+    "productImage": "/src/assets/images/mortise-lock/lock-1.webp",
+    "productKey": "mortise-lock"
   },
   {
-    "productType": "MB 1307",
-    "productImage": "/src/assets/images/doors/MB-1307.jpg"
+    "productType": "Lock 2",
+    "productImage": "/src/assets/images/mortise-lock/lock-2.webp",
+    "productKey": "mortise-lock"
+  },
+  {
+    "productType": "Lock 3",
+    "productImage": "/src/assets/images/mortise-lock/lock-3.webp",
+    "productKey": "mortise-lock"
+  },
+  {
+    "productType": "Lock 4",
+    "productImage": "/src/assets/images/mortise-lock/lock-4.webp",
+    "productKey": "mortise-lock"
+  },
+  {
+    "productType": "Lock 5",
+    "productImage": "/src/assets/images/mortise-lock/lock-5.webp",
+    "productKey": "mortise-lock"
+  },
+  {
+    "productType": "Birla paints 1",
+    "productImage": "/src/assets/images/paint/birla/birla-1.webp",
+    "productKey": "paint"
+  },
+  {
+    "productType": "Birla paints 2",
+    "productImage": "/src/assets/images/paint/birla/birla-2.webp",
+    "productKey": "paint"
+  },
+  {
+    "productType": "Birla paints 3",
+    "productImage": "/src/assets/images/paint/birla/birla-3.webp",
+    "productKey": "paint"
+  },
+  {
+    "productType": "Birla paints 4",
+    "productImage": "/src/assets/images/paint/birla/birla-4.webp",
+    "productKey": "paint"
+  },
+  {
+    "productType": "Birla paints 5",
+    "productImage": "/src/assets/images/paint/birla/birla-5.webp",
+    "productKey": "paint"
+  },
+  {
+    "productType": "Handle 1",
+    "productImage": "/src/assets/images/handles/handle-1.webp",
+    "productKey": "handles"
+  },
+  {
+    "productType": "Handle 2",
+    "productImage": "/src/assets/images/handles/handle-2.webp",
+    "productKey": "handles"
+  },
+  {
+    "productType": "Handle 3",
+    "productImage": "/src/assets/images/handles/handle-3.webp",
+    "productKey": "handles"
+  },
+  {
+    "productType": "Handle 4",
+    "productImage": "/src/assets/images/handles/handle-4.webp",
+    "productKey": "handles"
+  },
+  {
+    "productType": "Handle 5",
+    "productImage": "/src/assets/images/handles/handle-5.webp",
+    "productKey": "handles"
   }
 ]

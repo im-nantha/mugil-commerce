@@ -7,6 +7,7 @@ import SingleProductFeature from "../components/SingleProductFeature";
 import SpecialCollections from "../components/SpecialCollections";
 import SneakPeek from "../components/SneakPeek";
 import AllProducts from "../components/AllProducts";
+import SneakPeekCardsData from "../data/SneakPeekData.json";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -28,7 +29,10 @@ const Home = () => {
         <FeaturedCollections />
         <SingleProductFeature />
         <SpecialCollections />
-        <SneakPeek />
+        <SneakPeek 
+        SneakPeekCardsData={SneakPeekCardsData}
+        SneakPeakTitle="Sneak Peek"
+        />
       </main>
     </Fragment>
   );
