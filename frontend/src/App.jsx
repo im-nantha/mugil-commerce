@@ -22,7 +22,7 @@ function App() {
           <ToastContainer theme="dark" position="top-center" />
           <Header cartItems={cartItems} />          
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/mugil-commerce" element={<Home />} />
             <Route path="/search" element={<Home />} />
             <Route
               path="/product/:id"

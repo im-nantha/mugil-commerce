@@ -17,7 +17,7 @@ const Header = ({ cartItems }) => {
         <nav className="mugil-mart-navbar">
           <ul className="mugil-mart-navbar-content">
             <li>
-              <Link to="/" className="mugil-mart-nav-wrap">
+              <Link to="/mugil-commerce" className="mugil-mart-nav-wrap">
                 Home
               </Link>
             </li>
