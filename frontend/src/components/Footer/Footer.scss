@@ -1,3 +1,10 @@
+@use "../../assets/styles/mixin" as *;
+
 footer {
-    background-color: grey;
+	background: #ffffff;
+
+	.footer-icons {
+		@include flex-center();
+		gap: 20px;
+	}
 }

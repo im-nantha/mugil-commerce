@@ -1,4 +1,4 @@
-@import "../../assets/styles/mixin";
+@use "../../assets/styles/mixin" as *;
 
 .header {
   position: sticky;

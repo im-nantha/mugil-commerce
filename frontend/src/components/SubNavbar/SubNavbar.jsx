@@ -8,8 +8,8 @@ const SubNavbar = () => {
     <header className="header">
       <div className="mugil-mart-header">
         <div className="mugil-mart-browse">
-          <a href="#" class="categories-title">
-            <i class="icon icon-categories"></i>browse categories
+          <a href="#" className="categories-title">
+            <i className="icon icon-categories"></i>browse categories
           </a>
         </div>
         <nav className="mugil-mart-navbar">
@@ -52,8 +52,8 @@ const SubNavbar = () => {
           </button>
         </nav>
         <div className="mugil-mart-list-wrapper">
-          <i class="bi bi-telephone-x"></i>
-          <a href="tel:7010726530" class="tel-number">
+          <i className="bi bi-telephone-x"></i>
+          <a href="tel:7010726530" className="tel-number">
             +917010726530
           </a>
         </div>

@@ -27,16 +27,10 @@ function Carousel() {
           loop
         >
           <SwiperSlide>
-            <img className="mugil-banner-img" src={banner3} alt="Slide 1" />
+            <img className="mugil-banner-img" src="https://themesflat.co/html/vineta/images/slider/florist/slider-1.jpg" alt="Slide 1" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="mugil-banner-img" src={banner2} alt="Slide 2" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img className="mugil-banner-img" src={banner1} alt="Slide 3" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img className="mugil-banner-img" src={banner4} alt="Slide 4" />
+            <img className="mugil-banner-img" src="https://themesflat.co/html/vineta/images/slider/florist/slider-2.jpg" alt="Slide 2" />
           </SwiperSlide>
         </Swiper>
       </div>

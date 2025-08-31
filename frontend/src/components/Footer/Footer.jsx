@@ -1,89 +1,90 @@
 import React from "react";
+import "./Footer.scss";
+
 
 const Footer = () => {
   return (
-    <footer className="text-center text-lg-start bg-body-tertiary">
-      <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-        <div className="mr-5 d-none d-lg-block">
-          <span>Get connected with us on social networks:</span>
+    <footer>
+      <div className="footer-head w-100 px-5 py-5">
+        <div className="d-flex justify-content-between">
+          <h2>MUGIL MART</h2>
+          <div className="footer-icons">
+            <i className="bi bi-facebook"></i>
+            <i className="bi bi-instagram"></i>
+            <i className="bi bi-linkedin"></i>
+            <i className="bi bi-twitter-x"></i>
+          </div>
         </div>
-        <div>
-          <a href="" className="mr-4 text-reset">
-            <i className="fab fa-facebook-f"></i>
-          </a>
-          <a href="" className="mr-4 text-reset">
-            <i className="fab fa-twitter"></i>
-          </a>
-          <a href="" className="mr-4 text-reset">
-            <i className="fab fa-google"></i>
-          </a>
-          <a href="" className="mr-4 text-reset">
-            <i className="fab fa-instagram"></i>
-          </a>
-          <a href="" className="mr-4 text-reset">
-            <i className="fab fa-linkedin"></i>
-          </a>
-          <a href="" className="mr-4 text-reset">
-            <i className="fab fa-github"></i>
-          </a>
-        </div>
-      </section>
-      <section className="border-bottom">
-        <div className="container text-center text-md-start mt-5">
-          <div className="row mt-3">
-            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">
-                <i className="fas fa-gem mr-3"></i>Mugil Elite Mart
-              </h6>
-              <p className="text-left">
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
-              </p>
+      </div>
+      <div className="footer-body px-5 pb-4">
+        <div className="row">
+          <div className="col-sm-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">Business Contact</h5>
+                <p className="card-text">123 Yarran st, Punchbowl, NSW 2196, Australia</p>
+              </div>
             </div>
-            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-left">
-              <h6 className="text-uppercase fw-bold mb-4">Explore</h6>
-              <p>
-                <a href="#" className="text-reset">
-                  Pricing
-                </a>
-              </p>
-              <p>
-                <a href="#" className="text-reset">
-                  Settings
-                </a>
-              </p>
-              <p>
-                <a href="#" className="text-reset">
-                  Orders
-                </a>
-              </p>
-              <p>
-                <a href="#" className="text-reset">
-                  Help
-                </a>
-              </p>
+          </div>
+          <div className="col-sm-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">Subscribe Newsletter</h5>
+                <p className="card-text">We invite you to register to read the latest news, offers and events about our company. We promise not spam your inbox.</p>
+              </div>
             </div>
-            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-left">
-              <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-              <p>
-                <i className="fas fa-home mr-3"></i>Vasi Glass And Plywoods - Mugil Elite Mart, Kallakurichi, Tamil Nadu
-              </p>
-              <p>
-                <i className="fas fa-envelope mr-3"></i>
-                murugan@mugilelitemart.com
-              </p>
-              <p>
-                <i className="fas fa-phone mr-3"></i>09894487698
-              </p>
+          </div>
+          <div className="col-sm-4 d-flex">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">About Us</h5>
+                <ul className="footer-menu-list">
+                  <li>
+                    <a href="about-us.html">About Us</a>
+                  </li>
+                  <li>
+                    <a href="contact-us.html">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="store-location.html">Our Store</a>
+                  </li>
+                  <li>
+                    <a href="about-us.html">Our Story</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">Resource</h5>
+                <ul className="footer-menu-list">
+                  <li>
+                    <a href="privacy-policy.html">Privacy Policies</a>
+                  </li>
+                  <li>
+                    <a href="term-and-condition.html">Terms &amp; Conditions</a>
+                  </li>
+                  <li>
+                    <a href="return-and-refund.html">Returns &amp; Refunds</a>
+                  </li>
+                  <li>
+                    <a href="faq.html">FAQ’s</a>
+                  </li>
+                  <li>
+                    <a href="shipping.html">Shipping</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-      <div className="text-center p-4">
-        © 2025 Copyright: <a href="https://mugilelitemart.com">mugilelitemart</a> All rights reserved
       </div>
-    </footer>
+      <div className="footer-bottom w-100 px-5 pb-5">
+        <div className="d-flex">
+          <p>Copyright © 2025 by Mugil Elite mart. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer >
   );
 };
 

@@ -1,0 +1,24 @@
+@use "../../assets/styles/mixin" as *;
+
+.features {
+	width: 100%;
+
+	.features-card-wrapper {
+		padding: 32px;
+		display: flex;
+		align-items: center;
+		gap: 16px;
+	}
+
+	.features-card {
+		flex: 1;
+	}
+
+	.icon-round {
+		@include flex-center();
+		width: 64px;
+		height: 64px;
+		border: 1px solid rgb(203, 190, 190);
+		border-radius: 50%;
+	}
+}
