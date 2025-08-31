@@ -1,5 +1,5 @@
 import React from "react";
-import SneakPeek from "../components/SneakPeek";
+import SneakPeek from "../components/SneakPeek/SneakPeek";
 import AllProducts from "../data/AllProductData.json";
 
 function Products() {

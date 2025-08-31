@@ -19,16 +19,8 @@
     .swiper-pagination-bullet-active {
       background: var(--blue-gradient);
     }
-    .mugil-banner-button {
-      padding: 8px 24px;
-      background: var(--blue-gradient);
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      border-radius: 4px;
-      text-decoration: none;
-      color: var(--primary-white);
+    .mugil-banner-img {
+        width: 100%;
     }
   }
 }

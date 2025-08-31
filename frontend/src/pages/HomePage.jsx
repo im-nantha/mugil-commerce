@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Fragment } from "react";
 import { useSearchParams } from "react-router-dom";
-import Carousel from "../components/Carousel";
-import FeaturedCollections from "../components/FeaturedCollections";
-import SingleProductFeature from "../components/SingleProductFeature";
-import SpecialCollections from "../components/SpecialCollections";
-import SneakPeek from "../components/SneakPeek";
-import AllProducts from "../components/AllProducts";
+import Carousel from "../components/Carousel/Carousel";
+import FeaturedCollections from "../components/FeaturedCollections/FeaturedCollections";
+import SingleProductFeature from "../components/SingleProductFeature/SingleProductFeature";
+import SpecialCollections from "../components/SpecialCollections/SpecialCollections";
+import SneakPeek from "../components/SneakPeek/SneakPeek";
 import SneakPeekCardsData from "../data/SneakPeekData.json";
 
 const Home = () => {

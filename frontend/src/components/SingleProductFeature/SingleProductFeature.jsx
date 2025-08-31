@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import sidebanner from "../assets/images/chimney.jpg";
-import useFadeInOnScroll from '../hooks/useFadeInOnScroll.js';
+import sidebanner from "../../assets/images/chimney.jpg";
+import useFadeInOnScroll from '../../hooks/useFadeInOnScroll.js';
+import "./SingleProductFeature.scss"
 
-function SingleProductFeature() {
+const SingleProductFeature = () => {
   const [ref, isVisible] = useFadeInOnScroll();
 
   return (

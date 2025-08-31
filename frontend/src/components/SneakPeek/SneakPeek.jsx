@@ -1,5 +1,6 @@
 import React from "react";
-import useFadeInOnScroll from '../hooks/useFadeInOnScroll.js';
+import useFadeInOnScroll from '../../hooks/useFadeInOnScroll.js';
+import "./SneakPeek.scss"
 
 function SneakPeekCards(props) {
   const [ref, isVisible] = useFadeInOnScroll();

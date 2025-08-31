@@ -1,0 +1,16 @@
+.text-banner {
+  width: 100%;
+  padding: 64px 0px;
+  background: linear-gradient(to right, #fdedc0, #fee9d0, #fee0d0);
+
+  .box-title {
+    gap: 24px;
+  }
+  .breadcrumb-item {
+    color: grey;
+    &.current {
+      color: #000000;
+    }
+  }
+}
+

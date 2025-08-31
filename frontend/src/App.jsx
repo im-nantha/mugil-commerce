@@ -1,17 +1,17 @@
 import "./App.css";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import ProductDetail from "./pages/productDetail";
-import Home from "./pages/Home";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import SubNavbar from "./components/SubNavbar/SubNavbar";
+import Home from "./pages/HomePage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/ReactToastify.css";
-import Cart from "./pages/Cart";
+import Cart from "./pages/CartPage";
 import "./assets/styles/main.scss";
-import About from "./pages/About";
-import ContactUs from "./pages/ContactUs";
-import Products from "./pages/products";
+import About from "./pages/AboutPage";
+import ContactUs from "./pages/ContactUsPage";
+import Products from "./pages/productsPage";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -20,19 +20,11 @@ function App() {
       <Router>
         <div>
           <ToastContainer theme="dark" position="top-center" />
-          <Header cartItems={cartItems} />          
+          <Header cartItems={cartItems} />     
+          <SubNavbar/>     
           <Routes>
             <Route path="/mugil-commerce/" element={<Home />} />
             <Route path="/mugil-commerce/search" element={<Home />} />
-            <Route
-              path="/mugil-commerce/product/:id"
-              element={
-                <ProductDetail
-                  cartItems={cartItems}
-                  setCartItems={setCartItems}
-                />
-              }
-            />
             <Route
               path="/mugil-commerce/cart"
               element={

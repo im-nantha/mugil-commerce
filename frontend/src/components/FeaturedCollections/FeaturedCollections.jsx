@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import FeaturedCollectionData from "../data/FeaturedCollection.json";
-import useFadeInOnScroll from '../hooks/useFadeInOnScroll.js';
+import FeaturedCollectionData from "../../data/FeaturedCollection.json";
+import useFadeInOnScroll from '../../hooks/useFadeInOnScroll.js';
+import "./FeaturedCollections.scss"
 
 function FeaturedCollectionCards(props) {
   const [ref, isVisible] = useFadeInOnScroll();
